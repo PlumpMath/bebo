@@ -12,7 +12,7 @@ To preserve fine-grained control per script invocation, you can use the `run.ts`
 ```
 deno run --allow-net \
      https://cdn.jsdelivr.net/npm/bebo@0.0.6/run.ts \
-     https://raw.githubusercontent.com/borkdude/bebo/v0.0.6/examples/server/example.cljs
+     https://raw.githubusercontent.com/PlumpMath/bebo/main/examples/server/example.cljs
 ```
 
 and install this invocation as a named tool:
