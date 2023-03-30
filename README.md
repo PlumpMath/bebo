@@ -20,7 +20,7 @@ and install this invocation as a named tool:
 ```
 deno install --name server-example --allow-net \
      https://cdn.jsdelivr.net/npm/bebo@0.0.6/run.ts \
-     https://raw.githubusercontent.com/borkdude/bebo/v0.0.6/examples/server/example.cljs
+     https://raw.githubusercontent.com/PlumpMath/bebo/main/examples/server/example.cljs
 ```
 
 To install `bebo` as a script runner with full access:
@@ -32,7 +32,7 @@ $ deno install --allow-all --name bebo https://cdn.jsdelivr.net/npm/bebo@0.0.6/l
 Then run `bebo` on a local or remote `.cljs` file:
 
 ```
-$ bebo run https://raw.githubusercontent.com/borkdude/bebo/v0.0.6/examples/server/example.cljs
+$ bebo run https://raw.githubusercontent.com/PlumpMath/bebo/main/examples/server/example.cljs
 Listening on http://localhost:8080/
 ```
 
