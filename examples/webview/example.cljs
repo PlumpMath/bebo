@@ -6,7 +6,7 @@
 (def template
   "<html>
   <body>
-    <h1>안녕 from deno v{{version}}</h1>
+    <h1> 안녕 from deno v{{version}}</h1>
   </body>
   </html>")
 
