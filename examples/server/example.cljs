@@ -6,7 +6,7 @@
 
 (defn handler [req]
   (let [agent (-> req (.-headers) (.get "user-agent"))
-        body (str "Your user agent is: " (or agent
+        body (str "너의 사용자 에이전트는: " (or agent
                                              "Unknown"))]
     (new js/Response body #js {:status 200})))
 
