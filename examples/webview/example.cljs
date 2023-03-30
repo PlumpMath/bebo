@@ -5,8 +5,11 @@
 
 (def template
   "<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
   <body>
-    <h1> 안녕 from deno v{{version}}</h1>
+    <h1>안녕 from deno v{{version}}</h1>
   </body>
   </html>")
 
